@@ -1,0 +1,24 @@
+input, label {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+input,label,legend{
+    color: rgb(5, 29, 147) ;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+button{
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(214, 18, 123);
+}
+h1{
+    font-weight: 400;
+    font-style: oblique;
+    color: rgb(5, 17, 6);
+    display: flex;
+    justify-content: center;
+
+}

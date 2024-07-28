@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>Basic Form</h1>
+<form  action="" method="get" id="questions">
+   <fieldset>
+    <legend>What is your favourite colour?</legend>
+    <input type="radio" name="favcolor" value="blue" id="blue"><label for="blue">blue</label><br>
+    <input type="radio" name="favcolor" value="red" id="red"><label for="red">red</label><br>
+    <input type="radio" name="favcolor" value="green" id="green"><label for="green">green</label> <br>
+    <input type="radio" name="favcolor" value="black" id="black"><label for="black">black</label><br>
+   </fieldset> <br>
+   <label for="pizz">What is your favourite pizza topping?</label>
+   <select name="pizza" id="pizza">
+   <option value="cheese">Cheese</option>
+   <option value="onion">Onion</option>
+   <option value="pepperoni">Pepperoni</option>
+   <option value="sausage">Sausage</option>
+    </select>
+    <br><br>
+    <label for="poem">Write about yourself?</label>
+    <textarea name="poem" id="poem" cols="30" rows="10"></textarea> <br><br> 
+    <label for="resume">Upload your resume</label> 
+    <input type="file" name="resume" id="resume"> <br><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" > <br><br>
+    <input type="hidden" value="12345" name="tracking">
+    <label for="range">Select your range</label> <br><br>
+    <input type="range" min="1" max="10" step="1"> <br><br>
+    <label for="search">Search</label>
+    <input type="search" name="search" id="search"> <br><br>
+    <input type="submit" value="Submit Answers"> <br><br>
+    <input type="reset" value="Reset"> <br><br>
+    <input type="button" value="Button"> <br><br>
+    <button type="submit"> <strong>Click here</strong> </button>
+</form>
+    
+</body>
+</html>  
